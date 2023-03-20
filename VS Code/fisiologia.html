@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<meta charset="UTF-8"
+<html>
+  <head>
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <h1>Teste de Cooper</h1>
+    <p2>O Teste de Cooper é um teste de condicionamento físico que avalia a capacidade aeróbica de um indivíduo. Ele consiste em correr o máximo de distância possível em 12 minutos em uma pista ou espaço delimitado. A distância percorrida é registrada e, com base em tabelas de referência, é possível determinar o nível de condicionamento físico do indivíduo. Esse teste é amplamente utilizado em programas de treinamento físico, avaliações médicas e em estudos científicos relacionados à aptidão física.</p2>
+    <!--explicação do teste de cooper-->
+    <form onsubmit="calcularVo2(); return false;">
+        <h3>Insira a Distância</h3>
+    
+      <input type="number" id="distancia" name="distancia" placeholder="Distância em metros" style="color: #000; background-color: #fff;">
+      <button type="submit" onclick="calcularVo2">Calcular</button>
+    </form>
+    <div id="resultado"></div>
+    <!--função que faz calcular o vo2 max-->
+
+    <img src="C:\Users\Pedro\Desktop\testecooper.png" width="421" height="195"> 
+    <!--imagem do teste de cooper-->
+
+    <h5>O VO2 máximo é a medida da capacidade máxima do</br>
+        corpo em utilizar o oxigênio durante o exercício físico. </br> 
+        É a quantidade máxima de oxigênio que o corpo pode  </br>
+        consumir por minuto durante o exercício intenso e <br>
+        prolongado, e é um indicador importante da aptidão <br> 
+        aeróbica de uma pessoa. Ele é medido em laboratório <br>
+        através de testes de esforço e é usado para determinar <br>
+        a intensidade do exercício que é mais adequada para <br>
+        melhorar a aptidão cardiovascular de uma pessoa.</h5>
+    <!--explicação do vo2 max-->
+    <script src="calcular.js"></script>
+  </body>
+</html>
